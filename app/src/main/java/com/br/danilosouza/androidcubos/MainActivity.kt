@@ -19,11 +19,11 @@ class MainActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         Toast.makeText(this, "PASSEI AQUI START", Toast.LENGTH_LONG).show()
-        Picasso
-            .get()
-            .load("https://cdn.discordapp.com/attachments/610975487845597234/629415172641128464/aulas_Mapas.png")
-            .into(eu)
-            // eu.setImageResource(R.drawable.eu)
+//        Picasso
+//            .get()
+//            .load("https://cdn.discordapp.com/attachments/610975487845597234/629415172641128464/aulas_Mapas.png")
+//            .into(eu)
+//            // eu.setImageResource(R.drawable.eu)
     }
 
     override fun onResume() {
